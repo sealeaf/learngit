@@ -4,6 +4,6 @@ git reset HEAD filename   unstage command
 git rm filename;git commit -m MESG;
 git push [-u] origin master 注意-u参数是关联远程分支与本地分支
 Github地址格式 https[或git]://github.com/sealeaf/proName
-git checkout -b branchname 相当于 git branch branchname;git checkout branchname;
+git checkout -b branchname 相当git branch branchname;git checkout branchname
 git merge branchname  当前在master，合并子分支
 git branch -d branchname  删除分支
